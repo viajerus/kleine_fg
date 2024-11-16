@@ -6,7 +6,7 @@ library(tmap)
 
 #read csv
 temp_dir_csv <- tempdir()
-url_csv <- "https://heibox.uni-heidelberg.de/f/8afe01ef2e7247a983e0/?dl=1"
+url_csv <- "https://heibox.uni-heidelberg.de/f/73b5a90673e446a8ab01/?dl=1"
 # File path to save the downloaded file
 file_path_csv <- file.path(temp_dir, "inei.csv")
 # Download the csv file
