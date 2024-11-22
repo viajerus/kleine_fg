@@ -37,7 +37,7 @@ data <- st_read(file_path)
 
 #filter lima geometries (districts)
 lima_met <- data %>% 
-  filter(ADM2_ES == "Lima")
+  filter(ADM2_ES %in% c("Lima", "Callao"))
 
 #remove leading PE
 lima_met$ADM3_PCODE <- gsub("PE", "", lima_met$ADM3_PCODE)
